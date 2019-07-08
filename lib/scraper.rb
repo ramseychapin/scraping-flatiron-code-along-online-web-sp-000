@@ -22,7 +22,7 @@ class Scraper
   end
 
   def get_courses
-    
+    doc.css("title")
   end
 
 end
