@@ -23,7 +23,7 @@ class Scraper
 
   def get_courses
     titles = doc.css("h2")
-    titles = doc.css("h2")
+    schedules = doc.css("h2")
     descriptions = doc.css("p")
   end
 
